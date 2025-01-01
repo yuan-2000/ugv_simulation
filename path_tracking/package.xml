@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>path_tracking</name>
+  <version>0.0.0</version>
+  <description>The path_tracking package</description>
+
+  <!-- Maintainer tag -->
+  <maintainer email="yuan@todo.todo">yuan</maintainer>
+
+  <!-- License tag (replace TODO with a valid license) -->
+  <license>TODO</license>
+
+  <!-- Dependencies -->
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Build dependencies (these packages are required at build time) -->
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>visualization_msgs</build_depend>
+
+  <!-- Runtime dependencies (these packages are required at runtime) -->
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>roscpp</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>tf</exec_depend>
+  <exec_depend>visualization_msgs</exec_depend>
+
+  <!-- Export section can be used to provide additional information -->
+  <export>
+    <!-- For tools like ROS docs or other tools -->
+  </export>
+</package>

@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: path_tracking
+Description: Description of path_tracking
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs nav_msgs roscpp sensor_msgs tf visualization_msgs

@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/yuan/catkin_ws/src/path_tracking/build/devel/setup.sh
